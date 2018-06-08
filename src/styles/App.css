@@ -1,0 +1,209 @@
+.App {
+  text-align: center;
+  width: 98%;
+  background-image: url("http://sf.co.ua/16/03/wallpaper-b54.jpg");
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: white;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.title {
+  font-size: 3vh;
+}
+
+img {
+  width: 155px;
+}
+
+.Beginners{
+  display: flex;
+  flex-wrap: wrap
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.title {
+  font-size: 5vw;
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 45vw;
+
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    .homeCardText{
+      font-size: 3vh;
+    }
+
+    .aboutCardText {
+      font-size: 3vh;
+    }
+
+    .contactEmail {
+      font-size: 5vh;
+background-color: white;
+padding: 2vh;
+border-radius: 42%;
+    }
+    nav.w3-bar.w3-green {
+      display:flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-content: space-around;
+      align-items: flex-start;
+      background-color: lightblue;
+      height: 3vw;
+      font-size: 2vw;
+      border-radius: 10vw;
+    }
+
+    .Beginners{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .w3-container {
+      width: 99%;
+      margin-top: -5vh;
+    }
+
+    .allInfo {
+      flex-basis: 40%
+    }
+
+    .cards{
+      display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    padding-top: 2vw
+    }
+
+
+
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+
+    nav.w3-bar.w3-green {
+      display:flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: space-around;
+       align-content: space-around;
+       align-items: flex-start;
+       background-color: lightblue;
+    height: 3vw;
+    font-size: 2vw;
+    border-radius: 10vw;
+    }
+
+
+
+    body {
+      padding: 0;
+      font-family: 'Josefin Sans';
+    }
+
+    .w3-card-4 {
+      font-size: 11vw;
+
+    }
+
+    .homeCardText{
+      font-size: 8vh;
+      min-height: 5vw
+    }
+.title {
+  font-size: 7vh;
+
+}
+
+.w3-button{
+  font-size: 37px;
+}
+
+h6 {
+  font-size: 5vh
+
+}
+
+h5{
+  font-size: 6vh
+}
+
+img {
+  width: 300px
+}
+
+.aboutCardText {
+  font-size: 5vh;
+}
+
+a {
+  font-size: 45px
+}
+
+}
